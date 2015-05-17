@@ -13,7 +13,7 @@ Preliminaries:
 Punch it, Chewie!
 
 * Clone the repository and checkout master branch
-    1. `> git clone recursive git@github.com:NewEconomyMovement/nem-ncc-main.git`
+    1. `> git clone --recursive git@github.com:NewEconomyMovement/nem-ncc-main.git`
     2. `> cd nem-ncc-main`
     3. `> git submodule foreach git checkout -B master origin/master`
 * `> mvn`
