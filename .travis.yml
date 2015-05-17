@@ -2,3 +2,12 @@ language: java
 
 jdk:
   - oraclejdk8
+
+# handle git submodules manually
+git:
+    submodules: false
+
+# replace the SSH URL with the public URL and then initialize submodules
+before_install:
+    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+    - git submodule update --init --recursive
