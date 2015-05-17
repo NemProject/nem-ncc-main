@@ -1,0 +1,9 @@
+[submodule "ncc"]
+	path = ncc
+	url = git@github.com:NewEconomyMovement/NemCommunityClient.git
+[submodule "nem-deploy"]
+	path = nem-deploy
+	url = git@github.com:NewEconomyMovement/nem.deploy.git
+[submodule "nem-core"]
+	path = nem-core
+	url = git@github.com:NewEconomyMovement/nem.core.git

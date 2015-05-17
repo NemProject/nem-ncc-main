@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.nem.ncc</groupId>
+    <artifactId>nem-ncc</artifactId>
+	<version>0.6.28-BETA</version>
+    <packaging>pom</packaging>
+
+    <name>NEM Community Client - including dependencies</name>
+
+    <repositories>
+        <repository>
+            <id>repo2_maven_org</id>
+            <url>http://repo2.maven.org/maven2</url>
+        </repository>
+    </repositories>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>nem-core</module>
+        <module>nem-deploy</module>
+        <module>ncc</module>
+    </modules>
+    <build>
+        <defaultGoal>install</defaultGoal>
+    </build>
+</project>
