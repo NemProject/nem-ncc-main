@@ -1,5 +1,5 @@
 # nem-ncc-main
-[![Build Status](https://travis-ci.org/NewEconomyMovement/nem-ncc-main.svg?branch=master)](https://travis-ci.org/NewEconomyMovement/nem-ncc-main)
+[![Build Status](https://travis-ci.org/NemProject/nem-ncc-main.svg?branch=master)](https://travis-ci.org/NemProject/nem-ncc-main)
 
 This is parent repository for NEM Community Client.
 
